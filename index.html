@@ -1,0 +1,75 @@
+<html>
+    
+    <head>
+        
+        <title>A Silly Face and Scales</title>
+        
+        <style>
+            
+            body
+            {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                width: 80%;
+                margin: auto;
+                background-color: blanchedalmond;
+            }
+            #mouth
+            {
+                margin-top: 1000px;
+            }
+            svg
+            {
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            h1,h2,h3
+            {
+                text-align: center;
+            }
+            svg
+            {
+                display: block;
+                margin: auto;
+            }
+            div
+            {
+                margin:auto;
+            }
+            
+        </style>
+        
+    </head>
+    
+    <body>
+        
+        <h1>A Silly Face and Scales</h1>
+        
+        <h2>Silly Face Drawn in an SVG</h2>
+        
+        <svg width = "340" height = "235">
+            <circle cx = "150" cy = "150" r = "75" fill = "gold" stroke = "black" stroke-width = "3"/>
+            <circle cx = "115" cy = "130" r = "20" fill = "white" stroke = "black" stroke-width = "2"/>
+            <circle cx = "122" cy = "120" r = "8" fill = "black"/>
+            <circle cx = "170" cy = "130" r = "20" fill = "white" stroke = "black" stroke-width = "2"/>
+            <circle cx = "177" cy = "120" r = "8" fill = "black" />
+            <path d = "M100,165 a1,1 0 0, 0 100, 0" fill = "red" stroke = "black" stroke-width = "2"/>
+            <line x1 = "95" y1 = "165" x2 = "201" y2 = "165" stroke = "black" stroke-width = "2"/>
+            <rect transform = "rotate(22)" x = "170" y = "-68" width = "60" height = "90" fill = "black"/>
+            <rect transform = "rotate(22)" x = "171" y = "-19" width = "58" height = "20" fill = "white" stroke = "black" stroke-width = "2"/>
+            <line x1 = "145" y1 = "83" x2 = "210" y2 = "110" stroke = "black" stroke-width = "5"/>
+        </svg>
+        
+        <h2>Essay</h2>
+        
+        <h3>Write an essay to discuss what a scale is and provide two ways it is useful in visualization</h3> 
+        
+        <div>
+            <p>In D3, <i>scales</i> are functions that contain parameters that are defined by the user. These parameters are the domain and range. When these parameters have been defined, the scale function can be called with an input and it will return a scaled output value.</p>
+            
+            <p>In one of the examples from the book, a version of the scale function is used in a scatterplot visualization. In this case, the scale is used to ensure that the correct values are getting the correct radius. Another useful way of visualization is creating domain and range axes, since it will produce an axis of numbers that can be inputed and an axis of numbers that will be outputted.</p>
+        </div>
+        
+    </body>
+    
+</html>
